@@ -9,12 +9,10 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+Decodes PWM-Signal from RC Receiver with counter and threshold values to decide wether to set the output to HIGH or LOW.
 
 ## How to test
 
-Explain how to use your project
+The program can be tested by applying a PWM-Signal to the input with a longer pulse time than 1.9ms, then the output will go to HIGH. If then you apply a PWM-Signal with a pulse time lower than 1.1 the output will go to LOW.
 
-## External hardware
-
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+Additionally the 7-Segment-Display will always show how many outputs are currently active (HIGH).
